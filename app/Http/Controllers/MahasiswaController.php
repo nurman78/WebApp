@@ -79,7 +79,7 @@ class MahasiswaController extends Controller
 
     public function delete($id){
         $result = [];
-
+        // validasi
         try {
             $data = Mahasiswa::findOrfail($id);
             
